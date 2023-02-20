@@ -1,11 +1,19 @@
 import React from "react";
+import '../styles/Nav.css';
+
+const styles = {
+    navStyle: {
+        background: 'green',
+        justifyContent: 'flex-end',
+    },
+};
 
 function Nav(props) {
     const tabs = ["About", "Portfolio", "Contact", "Resume"];
     return (
-        <nav>
-            <h1>Nav</h1>
-            <div className="tabs is-centered">
+        <nav className="inline">
+            <div className="container">
+            <h1 id="logo">Welcome</h1>
                 <ul className="nav nav-tabs">
                     <li onClick={() => props.setPage("About")}>
                         About

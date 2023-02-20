@@ -7,6 +7,7 @@ import Portfolio from "./components/pages/Portfolio";
 import Resume from "./components/pages/Resume";
 import { render } from "@testing-library/react";
 
+
 export default function App() {
     const [page, setPage] = useState("About")
     console.log(page)
@@ -24,7 +25,7 @@ export default function App() {
             return <Resume />
         }
     }
-    return (
+    return ( 
         <div>
             <Header setPage={setPage}/>
             {
