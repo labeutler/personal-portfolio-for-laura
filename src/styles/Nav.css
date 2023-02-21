@@ -61,6 +61,7 @@ div.tabs {
 
 h2 {
     font-family: cursive;
+    text-align: center;
 }
 
 li {
@@ -74,4 +75,36 @@ li {
 li:hover {
     background-color: aquamarine;
     justify-content: right;
+}
+
+div {
+    /* background-color: red; */
+    margin-left: auto;
+}
+
+.container input {
+    width: 100%;
+    clear: both;
+}
+
+.container textarea {
+    width: 100%;
+    clear: both;
+}
+
+label {
+    font-weight:bolder;
+}
+form {
+    margin: 4%;
+    text-align:center;
+    width: 100%;
+    padding: 4%;
+    
+    
+    /* height: 100%; */
+}
+
+.contact {
+    background-color: purple;
 }
