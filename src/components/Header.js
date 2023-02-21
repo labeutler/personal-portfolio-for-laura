@@ -1,10 +1,11 @@
 import Nav from './Nav';
+import "../styles/Header.css"
 
 function Header(props) {
     return (
         <header>
             <Nav setPage={props.setPage}/>
-            <h2>Laura Beutler</h2>
+            <h2 className="name">Laura Beutler</h2>
         </header>
         
     )

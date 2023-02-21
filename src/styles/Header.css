@@ -1,4 +1,13 @@
+* {
+    font-family: cursive;
+}
 header.nav {
     display: inline;
     background-color: azure;
+    
+}
+
+.name {
+    font-family: cursive;
+    margin: 4%;
 }
