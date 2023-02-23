@@ -7,7 +7,7 @@ function AboutMe() {
                 <h2>About Me</h2>
                 </div>
                 <div className="image">
-                    <img src={require('../../assets/images/recent.jpg')}
+                    <img src={require('../assets/images/recent.jpg')}
                     alt="about-me"
                     className="photo"
                     width="250"        

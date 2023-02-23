@@ -1,7 +1,7 @@
 // Contact information must include Contact: Name: email address: message: and submit button.  Confirm valid email address and confirm message is included. 
 import React, { useState } from "react";
 // In order to validate email
-import { validateEmail } from "../../utils/helpers"
+import { validateEmail } from "../utils/helpers"
 
 function Contact() {
     const [fromState, setFormState] = useState({
