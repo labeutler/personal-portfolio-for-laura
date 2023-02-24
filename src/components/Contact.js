@@ -5,26 +5,36 @@ import { validateEmail } from "../utils/helpers"
 
 function Contact() {
     const [formState, setFormState] = useState({
-        name: "",
-        email: "",
-        message: "",
+        name: '',
+        email: '',
+        message: '',
     });
 
-    const [errorMessage, setErrorMessage] = useState("");
+    const [errorMessage, setErrorMessage] = useState('');
 
     const { name, email, message } = formState;
 
     // validate email address is provided and valid
-    function handleChange(e) {
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        if(!errorMessage) {
+            console.log('Form needs to be submitted', formState);
+        }
+    };
+
+    const handleChange = (e) => {
         if (e.target.name === "email") {
             const isValid = validateEmail(e.target.value);
             if (!isValid) {
                 setErrorMessage("Email is invalid, please try again.");
             } else {
+                setErrorMessage('');
+            }
+        } else {
                 if (!e.target.value.length) {
                     setErrorMessage(`${e.target.name} is required.`);
                 } else {
-                    setErrorMessage("");
+                    setErrorMessage('');
                 }
             }
             if (!errorMessage) {
@@ -32,14 +42,14 @@ function Contact() {
                 console.log("Email confirmation form", formState);
             }
         };
-    }
+    
     return (
         <section>
             <div className="center">
                 <h2 className="page-header">Contact Me</h2>
             </div>
             <div class="container">
-                <form id="contact-form">
+                <form id="contact-form" onSubmit={handleSubmit}>
                     <div>
                         <label htmlFor="Name">Name:</label>
                         <input 
