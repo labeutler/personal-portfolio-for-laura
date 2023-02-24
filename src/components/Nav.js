@@ -3,11 +3,11 @@ import React from 'react';
 import '../styles/Nav.css';
 
 function Nav(props) {
-    const tabs = ["About", "Portfolio", "Contact", "Resume"];
+    const tabs = ["About Me", "Portfolio", "Contact", "Resume"];
     return (
         <nav className="inline">
             <div className="container">
-                <h1 id="logo">Welcome</h1>
+                <h1 id="logo">Laura Beutler</h1>
                 <ul className="nav nav-tabs">
                     {tabs.map((tab) => (
                         <li

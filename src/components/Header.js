@@ -34,7 +34,7 @@ function Header() {
                     target="_blank"
                     href="https://github.com/labeutler?tab=repositories"
                     >
-                        <span className="content is-large">Laura Beutler</span>
+                        <span className="content is-large">Welcome</span>
                     </a>
                 </div>
             </nav>
