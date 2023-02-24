@@ -1,4 +1,4 @@
-// import React, { useState } from "react";
+// Creating list of projects for portfolio
 import React from "react";
 import Project from "./Project";
 import Blog from "../assets/projects/A-Techies-Blog.jpg";
@@ -7,12 +7,6 @@ import Cocktail from "../assets/projects/Cocktail-Music-Match.jpg";
 import Editor from "../assets/projects/Internet-Free-Text-Editor.jpg";
 import FirstPortfolio from "../assets/projects/Portfolio-Challenge-2.jpg";
 import Organizer from "../assets/projects/Task-Organizer.jpg";
-// import { LazyLoadImage } from "react-lazy-load-image-component";
-
-// import Image from "../../assets/projects/"
-// import aTechiesBlog from "../../assets/projects/a_techies_blog.png";
-// function Portfolio() {
-//     const [projects] = useState([
 
 export const projects = [
     {

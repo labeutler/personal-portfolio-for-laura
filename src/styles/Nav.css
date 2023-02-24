@@ -1,6 +1,5 @@
 * {
     background-color: azure;
-    /* font-family:Arial, Helvetica, sans-serif */
 }
 
 body {
@@ -51,7 +50,6 @@ img {
     justify-content: center;
     column-count: 2;
     column-gap: 40px;
-    /* font-style: italic; */
     font-family: cursive;
 }
 
@@ -78,7 +76,6 @@ li:hover {
 }
 
 div {
-    /* background-color: red; */
     margin-left: auto;
 }
 
@@ -100,9 +97,6 @@ form {
     text-align:center;
     width: 100%;
     padding: 4%;
-    
-    
-    /* height: 100%; */
 }
 
 .contact {

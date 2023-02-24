@@ -1,19 +1,4 @@
-// import React from "react";
-// // import Nav from "./Nav";
-// import "../styles/Header.css"
-
-// function Header(props) {
-//     return (
-//         <header className="flex-row space-between px-1">
-//             {/* <Nav setPage={props.setPage}/> */}
-//             {/* <h2 className="name">Laura Beutler</h2> */}
-//             <h2>Laura Beutler</h2>
-//             {props.children}
-//         </header> 
-//     );
-// }
-// export default Header
-
+// Creating header code 
 import React, { useState } from "react";
 import Nav from "./Nav";
 import AboutMe from "./AboutMe";

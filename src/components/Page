@@ -1,3 +1,4 @@
+// Creating basic page development
 import React from "react";
 import AboutMe from "./AboutMe";
 import Portfolio from "./Portfolio";
@@ -22,7 +23,6 @@ function Page({ currentPage }) {
         }
     };
 
-    // const Page = (props) => {
     return (
         <section>
             <h2>{currentPage.name}</h2>
@@ -30,6 +30,5 @@ function Page({ currentPage }) {
         </section>
     );
 };
-// };
 
 export default Page;

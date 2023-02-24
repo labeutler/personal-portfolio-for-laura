@@ -1,8 +1,6 @@
-// import React, { useState } from "react";
+// Creating project page to hold projects in portfolio
 import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-// import { removeHyphan } from "../utils/helpers";
-
 
         function Project(props) {
             return (
@@ -17,7 +15,6 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
                                     wideth={100} height={100}
                                     alt="Placeholder Image"
                                     />
-                                    {/* <img src={process.env.PUBLIC_URL + project.image} alt="Placeholder image" /> */}
                                 </a>
                             </figure>
                         </div>

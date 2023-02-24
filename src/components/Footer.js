@@ -1,9 +1,9 @@
 import React from 'react';
-// import ReactDOM from 'react-dom';
+
 import { SocialIcon } from 'react-social-icons';
 import "../styles/Footer.css";
 
-
+// creating links for social media
 function Footer() {
     return (
         <div className='socialMedia' >
