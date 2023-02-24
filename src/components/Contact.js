@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { validateEmail } from "../utils/helpers"
 
 function Contact() {
-    const [fromState, setFormState] = useState({
+    const [formState, setFormState] = useState({
         name: "",
         email: "",
         message: "",
@@ -12,7 +12,7 @@ function Contact() {
 
     const [errorMessage, setErrorMessage] = useState("");
 
-    const { name, email, message } = fromState;
+    const { name, email, message } = formState;
 
     // validate email address is provided and valid
     function handleChange(e) {
@@ -28,8 +28,8 @@ function Contact() {
                 }
             }
             if (!errorMessage) {
-                setFormState({ ...fromState, [e.target.name]: e.target.value });
-                console.log("Email confirmation form", fromState);
+                setFormState({ ...formState, [e.target.name]: e.target.value });
+                console.log("Email confirmation form", formState);
             }
         };
     }
@@ -82,4 +82,4 @@ function Contact() {
     );
 }
 
-export default Contact
+export default Contact;

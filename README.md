@@ -83,6 +83,11 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
+[Understanding Props](https://www.freecodecamp.org/news/beginners-guide-to-props-in-react/#:~:text=Props%20are%20used%20to%20store,interfaces%20across%20the%20component%20hierarchy.
+)
+[Understanding Keys](https://www.javatpoint.com/react-keys#:~:text=A%20key%20is%20a%20unique,the%20users%20alter%20the%20lists.)
+
+
 List your collaborators, if any, with links to their GitHub profiles.
 
 If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.

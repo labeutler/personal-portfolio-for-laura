@@ -1,11 +1,20 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
+import React from "react";
 import Project from "./Project";
+import Blog from "../assets/projects/A-Techies-Blog.jpg";
+import Forecast from "../assets/projects/5-Day-Weather-Forecast.jpg";
+import Cocktail from "../assets/projects/Cocktail-Music-Match.jpg";
+import Editor from "../assets/projects/Internet-Free-Text-Editor.jpg";
+import FirstPortfolio from "../assets/projects/Portfolio-Challenge-2.jpg";
+import Organizer from "../assets/projects/Task-Organizer.jpg";
+// import { LazyLoadImage } from "react-lazy-load-image-component";
+
 // import Image from "../../assets/projects/"
 // import aTechiesBlog from "../../assets/projects/a_techies_blog.png";
-function Portfolio() {
-    const [projects] = useState([
+// function Portfolio() {
+//     const [projects] = useState([
 
-    // const projects = [
+export const projects = [
     {
         id: 0,
         name: "Portfolio",
@@ -22,7 +31,7 @@ function Portfolio() {
         name: "A-Techies-Blog",
         languages: "html, handlebars, js",
         packages: "bcrypt, connect-session-sequelize,dotenv, Express.js, express-handlebars, express-session, fetch-schema, mysql2, schema, sequelize",
-        // image: {aTechiesBlog},
+        image: Blog,
         description: "A place where techies can go to post blogs, and read what others have written",
         repo: "https://github.com/labeutler/a_techies_blog",
         link: "https://a-techies-blog.herokuapp.com/",
@@ -32,7 +41,7 @@ function Portfolio() {
         name: "5 Day Weather Forcast",
         languages: "html, js, css, bootstrap",
         packages: "none",
-        // image: "/image/proj2.png",
+        image: Forecast,
         description: "An app allowing you to check the current local weather and 5 day forecast.  Also, stores previous cities searched.",
         repo: "https://github.com/labeutler/5-day-weather-forecast/blob/main/index.html",
         link: "https://labeutler.github.io/5-day-weather-forecast/",
@@ -42,7 +51,7 @@ function Portfolio() {
         name: "Internet Free Text Editor",
         languages: "node, js, html, routes, json ",
         packages: "Express, if-env, nodemon",
-        // image: "/image/proj3.png",
+        image: Editor,
         description: "Being able to edit notes when either on or off the internet using PWA (Progressive Web Applications).",
         repo: "https://github.com/labeutler/internet_free_text_editor",
         link: "https://internet-free-text-editor.herokuapp.com/",
@@ -52,7 +61,7 @@ function Portfolio() {
         name: "Cocktail Music Match",
         languages: "html, tailwinds, css, js ",
         packages: "none",
-        // image: "/image/proj4.png",
+        image: Cocktail,
         description: "Have a Cocktail with a recipe generated with a game to play while I enjoy it.",
         repo: "https://github.com/CocktailMusicMatch/CocktailMusicMatch",
         link: "https://cocktailmusicmatch.github.io/CocktailMusicMatch/",
@@ -62,7 +71,7 @@ function Portfolio() {
         name: "Task Organizer",
         languages: "Routes, html, css, js, db.json, node",
         packages: "Express, uuid",
-        // image: "/image/proj5.png",
+        image: Organizer,
         description: "The ability to organize thoughts and keep track of them until they are complete.",
         repo: "https://git.heroku.com/internet-free-text-editor.git",
         link: "https://sleepy-tor-26670.herokuapp.com/",
@@ -72,33 +81,21 @@ function Portfolio() {
         name: "Portfolio Challenge 2",
         languages: "html, js, css, ",
         packages: "none",
-        // image: "/image/proj6.png",
+        image: FirstPortfolio,
         description: "A electronic version of my resume for you to review and see what work I have accomplished along the way.",
         repo: "https://github.com/labeutler/lb-project-portfolio",
         link: "https://labeutler.github.io/lb-project-portfolio/",
     },
-]);
+];
 
-// function Portfolio() {
+function Portfolio() {
     return (
         <div>
-            <div className="flex-row">
-                <ul>
-                    {projects.map(project => (
-                        <li>{project.name}</li>
-                    ))}
-                </ul>
-                {/* {projects.map((project, idx) => (
-                    <Project
-                    project={project}
-                    key={"project" + idx}
-                    />
-                ))} */}
-            </div>
-            {/* <p className="content is-medium">Portfolio</p>
+
+            <p className="content is-medium">Portfolio</p>
             <hr />
 
-            <Project projects={projects} /> */}
+            <Project projects={projects} />
         </div>
     );
 }
