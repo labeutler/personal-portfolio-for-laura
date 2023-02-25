@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/labeutler/personal-portfolio-for-laura/static/css/main.46e2bc11.css",
-    "main.js": "/labeutler/personal-portfolio-for-laura/static/js/main.11ba60e0.js",
+    "main.js": "/labeutler/personal-portfolio-for-laura/static/js/main.8c066b0c.js",
     "static/media/recent.jpg": "/labeutler/personal-portfolio-for-laura/static/media/recent.f06cf7de03208661d9d0.jpg",
     "static/media/Personal.jpg": "/labeutler/personal-portfolio-for-laura/static/media/Personal.c943e6ae2c262f4ca2d1.jpg",
     "static/media/Portfolio-Challenge-2.jpg": "/labeutler/personal-portfolio-for-laura/static/media/Portfolio-Challenge-2.87cc6a57463a6ab0a29e.jpg",
@@ -11,10 +11,10 @@
     "static/media/5-Day-Weather-Forecast.jpg": "/labeutler/personal-portfolio-for-laura/static/media/5-Day-Weather-Forecast.4a49881d52281a7f9d61.jpg",
     "index.html": "/labeutler/personal-portfolio-for-laura/index.html",
     "main.46e2bc11.css.map": "/labeutler/personal-portfolio-for-laura/static/css/main.46e2bc11.css.map",
-    "main.11ba60e0.js.map": "/labeutler/personal-portfolio-for-laura/static/js/main.11ba60e0.js.map"
+    "main.8c066b0c.js.map": "/labeutler/personal-portfolio-for-laura/static/js/main.8c066b0c.js.map"
   },
   "entrypoints": [
     "static/css/main.46e2bc11.css",
-    "static/js/main.11ba60e0.js"
+    "static/js/main.8c066b0c.js"
   ]
 }
