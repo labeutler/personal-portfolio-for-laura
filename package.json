@@ -1,5 +1,6 @@
 {
   "name": "personal-portfolio-for-laura",
+  "homepage": "https://github.com/labeutler/personal-portfolio-for-laura",
   "version": "1.0.0",
   "description": "## Description Creatinging a single-page application that displays samples of candidates work that have deployed via React. (Challenge 20)",
   "private": true,
@@ -21,14 +22,13 @@
   "bugs": {
     "url": "https://github.com/labeutler/personal-portfolio-for-laura/issues"
   },
-  "homepage": "https://github.com/labeutler/personal-portfolio-for-laura",
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^11.1.0 ",
-    "@testing-library/user-event": "^13.5.0"
+    "@testing-library/user-event": "^13.5.0",
+    "gh-pages": "^5.0.0"
   },
   "dependencies": {
-    "gh-pages": "^5.0.0",
     "pretty": "^2.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
