@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio-for-laura/static/css/main.46e2bc11.css",
+    "main.js": "/personal-portfolio-for-laura/static/js/main.f44cf5eb.js",
+    "static/media/recent.jpg": "/personal-portfolio-for-laura/static/media/recent.f06cf7de03208661d9d0.jpg",
+    "static/media/Personal.jpg": "/personal-portfolio-for-laura/static/media/Personal.c943e6ae2c262f4ca2d1.jpg",
+    "static/media/Portfolio-Challenge-2.jpg": "/personal-portfolio-for-laura/static/media/Portfolio-Challenge-2.87cc6a57463a6ab0a29e.jpg",
+    "static/media/Task-Organizer.jpg": "/personal-portfolio-for-laura/static/media/Task-Organizer.94bd6b18773de7821868.jpg",
+    "static/media/Internet-Free-Text-Editor.jpg": "/personal-portfolio-for-laura/static/media/Internet-Free-Text-Editor.737058407213e81a58dd.jpg",
+    "static/media/Cocktail-Music-Match.jpg": "/personal-portfolio-for-laura/static/media/Cocktail-Music-Match.b42d9d76ee60daeff0a0.jpg",
+    "static/media/5-Day-Weather-Forecast.jpg": "/personal-portfolio-for-laura/static/media/5-Day-Weather-Forecast.4a49881d52281a7f9d61.jpg",
+    "index.html": "/personal-portfolio-for-laura/index.html",
+    "main.46e2bc11.css.map": "/personal-portfolio-for-laura/static/css/main.46e2bc11.css.map",
+    "main.f44cf5eb.js.map": "/personal-portfolio-for-laura/static/js/main.f44cf5eb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46e2bc11.css",
+    "static/js/main.f44cf5eb.js"
+  ]
+}
