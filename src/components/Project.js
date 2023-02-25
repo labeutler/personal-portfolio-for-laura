@@ -7,7 +7,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
         <div>
             <div className="columns is-desktop is-justify-content-center is-flex-wrap-wrap is-flex-direction-row">
                 {props.projects.map((project, index) => (
-                    <div className="card">
+                    <div key={index} className="card">
                         <div className="card-image">
                             <figure className="image is-4by3">
                                 <a href={project.link} target="_blank" rel="noreferrer">
@@ -22,7 +22,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
                             <div className="media">
                                 <div className="media-left"></div>
                                 <div className="media-content">
-                                    <p className="name is-4" key={index}>
+                                    <p className="name is-4" >
                                         {project.name}
                                     </p>
                                 </div>

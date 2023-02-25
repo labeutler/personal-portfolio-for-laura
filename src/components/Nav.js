@@ -16,10 +16,10 @@ function Nav(props) {
                 <h1 id="logo">Laura Beutler</h1>
                 <ul className="nav nav-tabs">
                     {tabs.map((Tab, i) => (
-                        <li
+                        <li key={i}
                             className={`mx-5 ${currentPage.name === Tab.name ? "navActive" : "nav-item"}`
                             }
-                            key={i}
+                            // key={i}
                         >
                             <span
                                 onClick={() =>

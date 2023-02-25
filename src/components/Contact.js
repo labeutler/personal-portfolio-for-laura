@@ -48,7 +48,7 @@ function Contact() {
             <div className="center">
                 <h2 className="page-header">Contact Me</h2>
             </div>
-            <div class="container">
+            <div className="container">
                 <form id="contact-form" onSubmit={handleSubmit}>
                     <div>
                         <label htmlFor="Name">Name:</label>
