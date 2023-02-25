@@ -19,33 +19,35 @@ function Header() {
                 return <Contact />;
             case "Resume":
                 return <Resume />;
-                
+
             default:
                 return <AboutMe />;
         }
     };
     return (
-        <div>
-            <nav className="navbar">
-                <div className="navbar-brand">
-                    <a
-                    className="navbar-item"
-                    rel="noreferrer"
-                    target="_blank"
-                    href="https://github.com/labeutler?tab=repositories"
-                    >
-                        <span className="content is-large">Welcome</span>
-                    </a>
-                </div>
-            </nav>
-            <Nav
-                currentPage={currentPage}
-                handlePageChange={handlePageChange}
-            />
-            <main>
-                <div>{renderPage(currentPage)}</div>
-            </main>
-        </div>
+        <header>
+            <div>
+                <nav className="navbar">
+                    <div className="navbar-brand">
+                        <a
+                            className="navbar-item"
+                            rel="noreferrer"
+                            target="_blank"
+                            href="https://github.com/labeutler?tab=repositories"
+                        >
+                            <span className="content is-large">Welcome</span>
+                        </a>
+                    </div>
+                </nav>
+                <Nav
+                    currentPage={currentPage}
+                    handlePageChange={handlePageChange}
+                />
+                <main>
+                    <div>{renderPage(currentPage)}</div>
+                </main>
+            </div>
+        </header>
     );
 }
 
