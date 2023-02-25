@@ -56,8 +56,10 @@ GIVEN a single-page application portfolio for a web developer
 
 ## Installation
 
-Please click on the following link.
-[My Portfolio](https://labeutler.github.io/personal-portfolio-for-laura/)
+Please click on the following link to see 
+[My Portfolio](https://labeutler.github.io/personal-portfolio-for-laura/).
+
+Please click [HERE](https://github.com/labeutler/personal-portfolio-for-laura) to be taken to my GitHub repository.
 
 ## Usage
 
