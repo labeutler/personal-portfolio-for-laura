@@ -67,7 +67,6 @@ li {
     height: 100%;
     padding: 8px;
     border: 2px solid #078882;
-
 }
 
 li:hover {
@@ -107,5 +106,6 @@ form {
     color: var(--secondary);
     cursor: default;
     text-shadow: 3px 3px 15px aqua;
-
+    border-radius: 50%;
+    justify-content: space-between;
 }

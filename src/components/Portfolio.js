@@ -7,14 +7,15 @@ import Cocktail from "../assets/projects/Cocktail-Music-Match.jpg";
 import Editor from "../assets/projects/Internet-Free-Text-Editor.jpg";
 import FirstPortfolio from "../assets/projects/Portfolio-Challenge-2.jpg";
 import Organizer from "../assets/projects/Task-Organizer.jpg";
+import Personal from "../assets/projects/Personal.jpg";
 
 export const projects = [
     {
         id: 0,
         name: "Portfolio",
-        languages: "everything",
-        packages: "json, express",
-        image: "",
+        languages: "Express, React, JavaScript, CSS, ",
+        packages: "Pretty, React, React-DOM, React-Lazy-Load-Image-Component, React-PDF, React-Scripts, React-Socia-Icons",
+        image: Personal,
         description: "my personal portfolio",
         repo: "https://github.com/labeutler/potential_react_candidates",
         link: "",

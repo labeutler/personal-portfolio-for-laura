@@ -14,10 +14,23 @@ nav li {
 
 ul.skills {
     line-height: 2rem;
+    justify-content: center;
 }
 
 ul.skills li {
     list-style-type: circle;
+}
+li.list {
+    background-color: rgb(217, 254, 254);
+    text-align: center;
+    display: block;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h4.proficiencies {
+    text-align: center;
+    text-decoration: underline;
 }
 
 .my-5 {
@@ -30,4 +43,3 @@ ul.skills li {
     margin-bottom: var(--spacing-two);
   }
 
-  

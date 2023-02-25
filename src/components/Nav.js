@@ -2,36 +2,13 @@
 import React from 'react';
 import '../styles/Nav.css';
 
-// function Nav(props) {
-//     return (
-//         <li>{props.value}</li>
-//     );
-// }
-
-
-// function NavigationButtons(props) {
-//     const buttons = props.buttons;
-//     const nav = buttons.map((button) =>
-//     <Nav key={button.toString()} value={button} />
-// );
-// return (
-//     <ul>
-//         {nav}
-//     </ul>
-// )
-// }
-
-
-
+//Creating Navigation prompts to fit requirements.  
 function Nav(props) {
     const {
         tabs = ["About Me", "Portfolio", "Contact", "Resume"],
         setCurrentPage,
         currentPage,
     } = props;
-    // useEffect(() => {
-    //     document.title = (currentPage.name);
-    // }, [currentPage]);
 
     return (
         <nav className="inline">
@@ -53,7 +30,7 @@ function Nav(props) {
                             <a href={"#" + Tab.toLowerCase()}
                                 onClick={() => props.handlePageChange(Tab)}
                                 className={
-                                    props.currentPage === Tab ? "nav-link active" : "nav-link"
+                                    props.currentPage === Tab ? "navActive" : "nav-link"
                                 }
                             >
                                 {Tab}

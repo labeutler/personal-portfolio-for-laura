@@ -8,29 +8,28 @@ function Resume() {
                 <h3>
                     Download my <a href="https://www.linkedin.com/in/laura-beutler-92987413/details/featured/">Resume</a>
                     <br />
-                    <br />
                 </h3>
                 <h3>Full Stack Coding Skills</h3>
                 
-                <h4>Front-end Proficiencies</h4>
+                <h4 className="proficiencies">Front-end Proficiencies</h4>
                 <ul className="skills">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>jQuery</li>
-                    <li>Responsive Design</li>
-                    <li>React</li>
-                    <li>Bootstrap</li>
+                    <li className="list">HTML</li>
+                    <li className="list">CSS</li>
+                    <li className="list">JavaScript</li>
+                    <li className="list">jQuery</li>
+                    <li className="list">Responsive Design</li>
+                    <li className="list">React</li>
+                    <li className="list">Bootstrap</li>
                 </ul>
-                <h4>Back-end Proficiencies</h4>
+                <h4 className="proficiencies">Back-end Proficiencies</h4>
                 <ul className="skills">
-                    <li>APIs</li>
-                    <li>Node</li>
-                    <li>Express</li>
-                    <li>MySQL, Sequelize</li>
-                    <li>MongoDB, Mongoose</li>
-                    <li>REST</li>
-                    <li>GraphQL</li>
+                    <li className="list">APIs</li>
+                    <li className="list">Node</li>
+                    <li className="list">Express</li>
+                    <li className="list">MySQL, Sequelize</li>
+                    <li className="list">MongoDB, Mongoose</li>
+                    <li className="list">REST</li>
+                    <li className="list">GraphQL</li>
                 </ul>
             </div>
         </section>
