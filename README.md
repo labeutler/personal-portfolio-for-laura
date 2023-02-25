@@ -57,9 +57,9 @@ GIVEN a single-page application portfolio for a web developer
 ## Installation
 
 Please click on the following link to see 
-[My Portfolio](https://labeutler.github.io/personal-portfolio-for-laura/).
+[My Portfolio](https://github.com/labeutler/personal-portfolio-for-laura).
 
-Please click [HERE](https://github.com/labeutler/personal-portfolio-for-laura) to be taken to my GitHub repository.
+Please click [HERE](https://labeutler.github.io/personal-portfolio-for-laura/) to be taken to my GitHub repository.
 
 ## Usage
 
@@ -99,6 +99,7 @@ Please click [HERE](https://github.com/labeutler/personal-portfolio-for-laura) t
 * [Understanding PDF](https://www.npmjs.com/package/react-pdf)
 * [Extra React Help](https://www.geeksforgeeks.org/how-to-redirect-to-another-page-in-reactjs/)
 * [Responsive Nav Bar Help](https://www.codevertiser.com/reactjs-responsive-navbar/#:~:text=You%20can%20make%20the%20Navbar,can%20use%20a%20useMediaQuery%20hook.)
+* askBCS Morgan and David were both on a live chat with me trying to assist with the issue.
 
 ## License
 
