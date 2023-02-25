@@ -1,6 +1,6 @@
 {
   "name": "personal-portfolio-for-laura",
-  "homepage": "https://github.com/labeutler/personal-portfolio-for-laura",
+  "homepage": "https://github.com/personal-portfolio-for-laura",
   "version": "1.0.0",
   "description": "## Description Creatinging a single-page application that displays samples of candidates work that have deployed via React. (Challenge 20)",
   "private": true,
